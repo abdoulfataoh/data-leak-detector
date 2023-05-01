@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2023-04-30-20-10-11
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1682885404.404080	a8d9c75955c080fa2457e2d0cca6d8328450d2659973bb536f0c45d33822500f	3	33009873D9548C59CE318F92200000009873D9	CN=*.events.data.microsoft.com,O=Microsoft Corporation,L=Redmond,ST=WA,C=US	CN=Microsoft Azure TLS Issuing CA 02,O=Microsoft Corporation,C=US	1678266163.000000	1709370163.000000	rsaEncryption	sha384WithRSAEncryption	rsa	2048	65537	-	*.events.data.microsoft.com,events.data.microsoft.com,*.pipe.aria.microsoft.com,pipe.skype.com,*.pipe.skype.com,*.mobile.events.data.microsoft.com,mobile.events.data.microsoft.com,*.events.data.msn.com,events.data.msn.com,*.events.data.msn.cn,events.data.msn.cn,oca.microsoft.com,watson.microsoft.com,*.vortex.data.microsoft.com,vortex.data.microsoft.com	-	-	-	F	-	T	F
+1682885404.404080	15a98761ebe011554da3a46d206b0812cb2eb69ae87aaa11a6dd4cb84ed5142a	3	0C6AE97CCED599838690A00A9EA53214	CN=Microsoft Azure TLS Issuing CA 02,O=Microsoft Corporation,C=US	CN=DigiCert Global Root G2,OU=www.digicert.com,O=DigiCert Inc,C=US	1596025800.000000	1719532799.000000	rsaEncryption	sha384WithRSAEncryption	rsa	4096	65537	-	-	-	-	-	T	0	F	F
+#close	2023-04-30-20-10-11

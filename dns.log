@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2023-04-30-21-05-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1682888715.441778	C1PE981Q4w1yvtxtqf	fe80::4990:587e:9e2e:1e91	45530	fe80::1	53	udp	46735	0.009347	beacons.gvt2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	142.250.200.131	198.000000	F
+1682888715.442896	CGfDzL2Mt4I9bGSqrc	fe80::4990:587e:9e2e:1e91	52094	fe80::1	53	udp	10574	0.021323	beacons.gvt2.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	T	0	beacons6.gvt2.com	109.000000	F
+1682888715.465171	CtYTP51Erlp0xWthUk	fe80::4990:587e:9e2e:1e91	40380	fe80::1	53	udp	65461	-	beacons6.gvt2.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F
+#close	2023-04-30-21-05-20

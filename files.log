@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2023-03-12-19-08-30
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1678648083.464668	FamLBZ2PMxHBn0kTsd	CH8stA4tOK6HAy9JZ6	192.168.1.75	46956	185.40.232.170	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	471	-	0	0	F	-	-	-	-	-	-	-
+1678648083.492554	F0vlBye87GEBhQ3Vb	C3cAcO1JABgiOA1ODh	192.168.1.75	46972	185.40.232.170	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	471	-	0	0	F	-	-	-	-	-	-	-
+1678648084.467102	F3AEsd2CifBzez0ct6	Ch8tFE1aVLX4IhHgNb	2c0f:eb58:60b:ee00:95f2:8984:50b1:2969	34310	2607:f740:e619::1	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	471	-	0	0	F	-	-	-	-	-	-	-
+1678648084.554846	FKNKSp3vJNMOaRvMPc	CYWXUI1QMUordrmgOc	2c0f:eb58:60b:ee00:95f2:8984:50b1:2969	34326	2607:f740:e619::1	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	471	-	0	0	F	-	-	-	-	-	-	-
+1678648084.926183	F83HB5hZPzMuS0BE2	CroUoe11Mw7PXEieBa	2c0f:eb58:60b:ee00:95f2:8984:50b1:2969	33218	2620:1ec:4f:1::64	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	471	-	0	0	F	-	-	-	-	-	-	-
+#close	2023-03-12-19-08-31

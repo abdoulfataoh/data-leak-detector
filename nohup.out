@@ -1,0 +1,135 @@
+wlp4s0: interface state UNINITIALIZED->ENABLED
+wlp4s0: AP-ENABLED 
+wlp4s0: STA 68:d7:9a:18:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: interface state ENABLED->DISABLED
+wlp4s0: AP-DISABLED 
+wlp4s0: CTRL-EVENT-TERMINATING 
+nl80211: deinit ifname=wlp4s0 disabled_11b_rates=0
+wlp4s0: interface state UNINITIALIZED->ENABLED
+wlp4s0: AP-ENABLED 
+wlp4s0: STA 68:d7:9a:18:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+Could not open configuration file '&' for reading.
+Failed to set up interface with &
+Failed to initialize interface
+wlp4s0: interface state UNINITIALIZED->DISABLED
+wlp4s0: AP-DISABLED 
+wlp4s0: CTRL-EVENT-TERMINATING 
+hostapd_free_hapd_data: Interface wlp4s0 wasn't started
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: STA 68:d7:9a:17:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-ENABLED 
+nl80211: Could not configure driver mode
+nl80211: deinit ifname=wlp4s0 disabled_11b_rates=0
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211 driver initialization failed.
+wlp4s0: interface state UNINITIALIZED->DISABLED
+wlp4s0: AP-DISABLED 
+wlp4s0: CTRL-EVENT-TERMINATING 
+hostapd_free_hapd_data: Interface wlp4s0 wasn't started
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+Failed to set beacon parameters
+nl80211: Could not configure driver mode
+nl80211: deinit ifname=wlp4s0 disabled_11b_rates=0
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211 driver initialization failed.
+wlp4s0: interface state UNINITIALIZED->DISABLED
+wlp4s0: AP-DISABLED 
+wlp4s0: CTRL-EVENT-TERMINATING 
+hostapd_free_hapd_data: Interface wlp4s0 wasn't started
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: STA 68:d7:9a:17:b4:8a IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: STA 68:d7:9a:18:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-ENABLED 
+nl80211: Could not configure driver mode
+nl80211: deinit ifname=wlp4s0 disabled_11b_rates=0
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+nl80211 driver initialization failed.
+wlp4s0: interface state UNINITIALIZED->DISABLED
+wlp4s0: AP-DISABLED 
+Failed to set beacon parameters
+wlp4s0: CTRL-EVENT-TERMINATING 
+hostapd_free_hapd_data: Interface wlp4s0 wasn't started
+wlp4s0: STA 68:d7:9a:17:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: STA 68:d7:9a:17:b4:8e IEEE 802.11: disassociated
+wlp4s0: STA 68:d7:9a:17:b4:8a IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: STA 68:d7:9a:18:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-ENABLED 
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: STA 68:d7:9a:18:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+Failed to set beacon parameters
+wlp4s0: STA 68:d7:9a:17:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: STA 68:d7:9a:17:b4:8a IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+rfkill: WLAN soft blocked
+rfkill: WLAN unblocked
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: STA 68:d7:9a:18:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: STA 68:d7:9a:17:b4:8e IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: STA 68:d7:9a:17:b4:8a IEEE 802.11: disassociated
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+Failed to set beacon parameters
+wlp4s0: INTERFACE-DISABLED 
+wlp4s0: INTERFACE-ENABLED 
+nl80211: kernel reports: key not allowed
+Failed to set beacon parameters

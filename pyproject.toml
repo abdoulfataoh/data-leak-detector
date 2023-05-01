@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "raspi-data-leak-detector"
+version = "0.1.0"
+description = ""
+authors = ["abdoulfataoh <abdoulfataoh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyaccesspoint = "^0.2.5"
+environs = "^9.5.0"
+pyshark = "^0.5.3"
+zat = "^0.4.6"
+streamlit = "^1.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

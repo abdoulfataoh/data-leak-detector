@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2023-04-30-21-10-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1682889015.928554	C9Snne2SWlbpOUtm7g	192.168.1.76	42096	162.55.80.222	443	tcp	-	-	-	-	S0	-	-	0	S	1	60	0	0	-
+1682889015.928591	CoP9xX1MVujX91sUb4	192.168.1.76	42106	162.55.80.222	443	tcp	-	-	-	-	S0	-	-	0	S	1	60	0	0	-
+1682889015.928610	CPcoDG4sYrgw5VF3Yf	192.168.1.76	42102	162.55.80.222	443	tcp	-	-	-	-	S0	-	-	0	S	1	60	0	0	-
+1682889016.455639	Cm7LtR2KjTQ8BDaiH8	2c0f:eb58:60b:ee00:4e83:a611:fffa:34e6	33188	2a00:1450:4003:808::200a	443	udp	-	0.029863	33	79	SF	-	-	0	^dD	1	81	1	127	-
+1682889016.055809	CYujhm3NBzIRYLY6w5	192.168.1.76	6881	115.88.36.141	40702	udp	-	-	-	-	S0	-	-	0	D	1	132	0	0	-
+1682889016.055968	CFzUdE2I139DJfFvG4	2c0f:eb58:60b:ee00:75d1:45d6:a5bb:b820	6881	2600:100f:a016:7fd5:6105:681e:ad01:1998	51413	udp	-	-	-	-	S0	-	-	0	D	1	152	0	0	-
+1682889015.930582	CMnpfe4NPiWeDzJ8Gd	2c0f:eb58:60b:ee00:4e83:a611:fffa:34e6	39034	2620:1ec:21::14	443	tcp	-	0.131005	126	92	OTH	-	-	0	^dDa	3	306	5	392	-
+1682889013.896055	Cm8syr23IcLEyQXNXk	fe80::1	135	fe80::4990:587e:9e2e:1e91	136	icmp	-	0.000065	24	16	OTH	-	-	0	-	1	72	1	64	-
+1682889014.145041	CpxcLK3668jcwlSfHd	192.168.1.76	37892	34.77.192.161	443	tcp	-	0.203594	129	63	OTH	-	-	0	DadA	2	233	2	167	-
+1682889014.145310	CX2jk53FPevgWaE4Mh	192.168.1.76	37934	34.77.192.161	443	tcp	-	0.203248	129	63	OTH	-	-	0	DadA	2	233	2	167	-
+1682889014.383454	CWEQmc1tMsavUHItv6	192.168.1.76	52596	35.201.127.49	443	tcp	-	1.101946	56	48	OTH	-	-	0	^dDa	2	160	4	256	-
+1682889014.651176	COaGmO6rxm5wxJJs1	2c0f:eb58:60b:ee00:4e83:a611:fffa:34e6	47206	2a02:2638:3::1a	443	tcp	-	0.166261	380	197	OTH	-	-	0	DadA	3	596	3	413	-
+1682889014.145504	CzfSbNrtYk32ibte8	192.168.1.76	37932	34.77.192.161	443	tcp	-	0.203110	129	63	OTH	-	-	0	DadA	2	233	2	167	-
+1682889013.907401	C6ZSdQMrZQXXrw427	192.168.1.76	43113	159.180.249.47	12142	tcp	-	0.000098	0	0	OTH	-	-	0	^hA	1	60	1	52	-
+1682889014.203480	CKO2ZybVATPJuFibg	192.168.1.76	52580	35.201.127.49	443	tcp	-	2.112393	84	72	OTH	-	-	0	^dDa	3	240	6	384	-
+1682889014.307053	CL8IZRpw7Eb8yxXte	192.168.1.76	52572	35.201.127.49	443	tcp	-	2.173958	84	72	OTH	-	-	0	^dDa	3	240	6	384	-
+1682889014.871729	CcLzVm16jVxg9sRuBa	2c0f:eb58:60b:ee00::1	135	2c0f:eb58:60b:ee00:75d1:45d6:a5bb:b820	136	icmp	-	0.000058	24	16	OTH	-	-	0	-	1	72	1	64	-
+1682889014.148186	CwrH8i1GoX7cRsp5K4	192.168.1.76	42806	35.72.166.92	443	tcp	-	-	-	-	OTH	-	-	0	^a	0	0	1	52	-
+1682889014.896824	CezA8C6yBsZ3rFt3d	2c0f:eb58:60b:ee00::1	135	2c0f:eb58:60b:ee00:4e83:a611:fffa:34e6	136	icmp	-	0.000056	24	16	OTH	-	-	0	-	1	72	1	64	-
+1682889015.238077	C9mTds09qiqYWLiO4	192.168.1.76	47173	86.73.80.95	23877	tcp	-	0.936305	68	162	SF	-	-	0	DadAFf	5	328	5	422	-
+#close	2023-04-30-21-10-20

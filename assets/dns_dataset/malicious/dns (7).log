@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2021-04-28-16-23-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1595574754.735309	Ca6XVnkazRQLA3Opg	10.8.0.249	38687	8.8.8.8	53	udp	52093	-	abifhgmzlcudpxg	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1595574754.735410	Cdosf96WGUPdCzHOk	10.8.0.249	13338	8.8.8.8	53	udp	29127	-	pxavpdmhp	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1595574754.736473	CMwZZl1Nl9oKwVQAV	10.8.0.249	42594	8.8.8.8	53	udp	56951	-	eigqvscsnhtk	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1595574756.341513	CjMMaRzIa87RRag0b	10.8.0.249	9142	8.8.8.8	53	udp	26535	0.010530	portal.fb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	star.c10r.facebook.com,157.240.30.18	3536.000000,59.000000	F
+1595574756.380662	C3jhST3gRN6sV9FuS7	10.8.0.249	45093	8.8.8.8	53	udp	29958	0.018918	mtalk.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mobile-gtalk.l.google.com,142.250.27.188	21599.000000,299.000000	F
+1595574758.256925	CSbAhnz7a2r0kqq7a	10.8.0.249	16337	8.8.8.8	53	udp	39788	0.017508	inbox.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.58.201.69	299.000000	F
+1595574760.899301	CJQobA4VU4tZTzEZDf	10.8.0.249	3000	8.8.8.8	53	udp	58064	0.009007	connectivitycheck.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.58.201.99	127.000000	F
+#close	2021-04-28-16-23-16
